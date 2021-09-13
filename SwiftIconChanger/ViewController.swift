@@ -14,6 +14,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func Login(_ sender: Any) {
+        setIcon(.Login)
+    }
+    
+    @IBAction func Logout(_ sender: Any) {
+        setIcon(.classic)
+    }
 }
 
